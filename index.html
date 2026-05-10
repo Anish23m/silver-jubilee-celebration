@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Silver Jubilee invitation website for a 25th anniversary celebration on 18 May."
+    />
+    <title>Silver Jubilee Celebration</title>
+    <link rel="preload" as="image" href="assets/ganesh-ji.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero__ambient" aria-hidden="true"></div>
+
+        <div class="invitation-stage">
+          <div class="invitation-copy">
+            <p class="kicker">25th Anniversary Celebration</p>
+            <h1 id="hero-title">A Silver Jubilee Invitation</h1>
+            <p>
+              With blessings and joy, we invite you to celebrate twenty-five
+              beautiful years of togetherness.
+            </p>
+          </div>
+
+          <button
+            class="invitation-card"
+            type="button"
+            aria-label="Open Silver Jubilee invitation card"
+            aria-expanded="false"
+          >
+            <span class="card-shadow" aria-hidden="true"></span>
+            <span class="card-cover">
+              <span class="cover-frame">
+                <img src="assets/ganesh-ji.png" alt="Ganesh Ji" />
+              </span>
+              <span class="cover-text">
+                <span>With Divine Blessings</span>
+                <strong>Open Invitation</strong>
+              </span>
+            </span>
+
+            <span class="card-inside" aria-hidden="true">
+              <span class="inside-hearts" aria-hidden="true">
+                <span class="floating-heart"></span>
+                <span class="floating-heart"></span>
+                <span class="floating-heart"></span>
+                <span class="floating-heart"></span>
+                <span class="floating-heart"></span>
+                <span class="floating-heart"></span>
+              </span>
+              <span class="inside-border"></span>
+              <span class="inside-kicker">Celebrating</span>
+              <span class="inside-title">Uma Shankar &amp; Binti</span>
+              <span class="inside-subtitle">
+                Celebrating 25 beautiful years of love, laughter, blessings,
+                faith, and togetherness.
+              </span>
+              <span class="inside-date">18th May 2026</span>
+              <span class="inside-location">Ashok Vatika, Kamre, Ranchi</span>
+            </span>
+          </button>
+        </div>
+      </section>
+
+      <section class="save-date reveal" id="save-date" aria-labelledby="save-title">
+        <div class="section-shell">
+          <p class="kicker">Save the Date</p>
+          <h2 id="save-title">18 May</h2>
+          <p class="lead">
+            Join us as we honor a love story that has grown richer for
+            twenty-five years.
+          </p>
+
+          <div class="date-panel">
+            <div>
+              <span class="date-number">18</span>
+              <span class="date-month">May</span>
+            </div>
+            <p>
+              A day reserved for blessings, memories, family, and celebration.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="countdown-section reveal" aria-labelledby="countdown-title">
+        <div class="section-shell">
+          <p class="kicker">Counting Down</p>
+          <h2 id="countdown-title">Until the Celebration</h2>
+
+          <div class="countdown" aria-live="polite">
+            <div>
+              <strong data-countdown="days">00</strong>
+              <span>Days</span>
+            </div>
+            <div>
+              <strong data-countdown="hours">00</strong>
+              <span>Hours</span>
+            </div>
+            <div>
+              <strong data-countdown="minutes">00</strong>
+              <span>Minutes</span>
+            </div>
+            <div>
+              <strong data-countdown="seconds">00</strong>
+              <span>Seconds</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="details reveal" aria-labelledby="details-title">
+        <div class="section-shell">
+          <p class="kicker">Celebration Details</p>
+          <h2 id="details-title">An Evening of Blessings</h2>
+
+          <div class="details-grid">
+            <article class="detail-card">
+              <span class="detail-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img">
+                  <path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5Z" />
+                </svg>
+              </span>
+              <h3>Venue</h3>
+              <p>Ashok Vatika Banquet Hall, Kamre, Ratu Road, Ranchi</p>
+            </article>
+
+            <article class="detail-card">
+              <span class="detail-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img">
+                  <path d="M7 2h2v3h6V2h2v3h3v17H4V5h3V2Zm11 9H6v9h12v-9Z" />
+                </svg>
+              </span>
+              <h3>Date</h3>
+              <p>Monday, 18 May</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="message reveal" aria-labelledby="message-title">
+        <div class="section-shell message__layout">
+          <div>
+            <p class="kicker">From the Family</p>
+            <h2 id="message-title">Two Hearts, One Beautiful Journey</h2>
+          </div>
+          <p>
+            Your presence and blessings will make this Silver Jubilee
+            celebration even more meaningful.
+          </p>
+        </div>
+      </section>
+
+      <section class="rsvp reveal" aria-labelledby="rsvp-title">
+        <div class="section-shell rsvp__layout">
+          <div>
+            <p class="kicker">RSVP</p>
+            <h2 id="rsvp-title">Share Your Wishes</h2>
+            <p class="lead">
+              Leave your blessings and warm wishes for the couple. Your message
+              will open in WhatsApp, ready to send.
+            </p>
+          </div>
+
+          <form class="rsvp-form" id="rsvp-form">
+            <label>
+              <span>Your name</span>
+              <input type="text" name="name" autocomplete="name" required />
+            </label>
+            <label>
+              <span>Your wishes</span>
+              <textarea name="message" rows="5" required></textarea>
+            </label>
+            <button class="primary-action" type="submit">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M2 21 23 12 2 3v7l15 2-15 2v7Z" />
+              </svg>
+              <span>Send on WhatsApp</span>
+            </button>
+            <p class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
