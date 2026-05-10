@@ -62,7 +62,7 @@ if ("IntersectionObserver" in window) {
 
 const rsvpForm = document.querySelector("#rsvp-form");
 const formStatus = document.querySelector(".form-status");
-const wishRecipientWhatsApp = "916205737818";
+const wishRecipientWhatsApp = "916206041134";
 
 function showFormStatus(message, linkUrl) {
   formStatus.textContent = message;

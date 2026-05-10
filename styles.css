@@ -696,6 +696,50 @@ h3 {
   line-height: 1.6;
 }
 
+.venue-line {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.venue-line p {
+  flex: 1;
+}
+
+.map-icon-link {
+  display: inline-grid;
+  flex: 0 0 auto;
+  width: 42px;
+  height: 42px;
+  place-items: center;
+  border: 1px solid rgba(183, 53, 44, 0.22);
+  border-radius: 8px;
+  color: var(--vermillion);
+  background: rgba(183, 53, 44, 0.08);
+  text-decoration: none;
+  transition:
+    transform 180ms ease,
+    background 180ms ease,
+    color 180ms ease;
+}
+
+.map-icon-link svg {
+  width: 21px;
+  height: 21px;
+  fill: currentColor;
+}
+
+.map-icon-link:hover {
+  color: white;
+  background: var(--vermillion);
+  transform: translateY(-1px);
+}
+
+.map-icon-link:focus-visible {
+  outline: 3px solid rgba(183, 53, 44, 0.28);
+  outline-offset: 4px;
+}
+
 .message {
   background:
     linear-gradient(90deg, rgba(240, 165, 34, 0.14), rgba(217, 221, 226, 0.52)),

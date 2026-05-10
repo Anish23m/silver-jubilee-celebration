@@ -12,8 +12,9 @@ Open `index.html` in a browser.
 - Date display: edit the `18 May` text in `index.html`
 - Countdown date/time: edit `celebrationDate` in `script.js`
 - Venue: edit the Venue card in `index.html`
+- Venue map link: edit the `map-icon-link` URL in `index.html`
 - Ganesh Ji artwork: replace `assets/ganesh-ji.png`
 
 The RSVP form stores the latest response in the visitor's browser using
-`localStorage` and opens WhatsApp with the wish pre-filled for `+91 6205737818`.
+`localStorage` and opens WhatsApp with the wish pre-filled for `+91 6206041134`.
 The visitor still needs to tap send in WhatsApp.
