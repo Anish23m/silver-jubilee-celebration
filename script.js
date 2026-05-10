@@ -106,13 +106,9 @@ if (rsvpForm && formStatus) {
     }
 
     const wishText = [
-      "Silver Jubilee wishes for Uma Shankar & Binti",
+      `_*Wishes from ${name}*_`,
       "",
-      `From: ${name}`,
-      "",
-      message,
-      "",
-      "Sent from the invitation website.",
+      `_${message}_`,
     ].join("\n");
     const whatsappUrl = `https://wa.me/${wishRecipientWhatsApp}?text=${encodeURIComponent(wishText)}`;
     const whatsappWindow = window.open(whatsappUrl, "_blank");
