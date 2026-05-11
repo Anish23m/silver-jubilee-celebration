@@ -1,4 +1,4 @@
-const celebrationDate = new Date("2026-05-18T00:00:00+05:30");
+const celebrationDate = new Date("2026-05-18T19:00:00+05:30");
 
 const invitationCard = document.querySelector(".invitation-card");
 const cardInside = document.querySelector(".card-inside");
